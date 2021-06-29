@@ -14,7 +14,7 @@ public class Test {
 		System.out.println(as.getBean(MemberDao.class));
 		MemberDao bean = as.getBean(MemberDao.class);
 		bean.test1();
-
+		System.out.println();
 //		log.debug();
 
 	}
