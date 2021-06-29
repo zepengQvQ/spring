@@ -15,6 +15,7 @@ public class Test {
 		MemberDao bean = as.getBean(MemberDao.class);
 		bean.test1();
 		System.out.println("hot");
+		System.out.println();
 //		log.debug();
 
 	}
